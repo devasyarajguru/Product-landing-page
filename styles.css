@@ -30,12 +30,15 @@ nav
     position: sticky;
     top:0;
     z-index: 1;
-   
 
 }
 
-.logo i , .logo h2{
+
+
+.logo i , .logo h1{
     display: inline-block;
+    font-size: 30px;
+    margin-top: -5px;
 }
 
 i
@@ -43,21 +46,26 @@ i
     font-size: 50px;
 }
 
+#guitar
+{
+    font-size: 70px;
+}
+
 .logo a 
 {
     text-decoration: none;
     color: #8c0000;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;  
 }
 
 .nav-links
 {
     flex: 2;
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;   
 }
+
+
 
 .nav-links li
 {
@@ -74,6 +82,11 @@ i
 font-family: 'Poppins', sans-serif;
 color: #000000;
 
+}
+
+.nav-links li a:hover
+{
+    color: #8c0000;
 }
 
 main h2
@@ -179,7 +192,7 @@ color: #000000;
     margin-left:105px;
 }
 
-.youtube
+#youtube
 {
     display: flex;
     justify-content: center;
@@ -187,7 +200,7 @@ color: #000000;
     margin-top: 90px;
 }
 
-.cards
+#cards
 {
     display: flex;
     justify-content: center;
@@ -204,6 +217,11 @@ color: #000000;
     background-color: #f6d8ac;
     margin: 10px;
     border:2px solid #8c0000;
+    
+}
+
+#main-body:hover
+{
     box-shadow: 6.6px 13.3px 13.3px hsl(0deg 0% 0% / 0.29);
 }
 
@@ -254,5 +272,58 @@ color: #000000;
 .button button
 {
     padding: 5px;
-    
+    font-size: 15px;
+    background-color: #8c0000;
+    color: #f6d8ac;
+}
+
+.button button:hover
+{
+    color: #8c0000;
+    background-color: #f6d8ac;
+    transition:all .5s ease-in-out;
+}
+
+footer
+{
+    margin: 50px;
+    margin-bottom: 0;
+    padding: 5px;
+    height: 110px;
+    background-color: #8c0000;
+    color: #f6d8ac;
+}
+
+#footer
+{
+  color: #f6d8ac;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#footer p
+{
+  
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  margin-right: 20px;
+  font-family: 'Darumadrop One', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+#copy
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+#footer p a
+{
+    text-decoration: none;
+    color: #f6d8ac;
+
 }
